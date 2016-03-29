@@ -10,7 +10,7 @@ $("#sentenceReplace form").submit(function(event) {
 
   for(i; i < sentenceLength; i++) {
 
-    sentence = sentence.replace ("a", "-").replace("e", "-").replace("i", "-").replace("o", "-").replace("u", "-");
+    sentence = sentence.replace ("a", "-").replace("e", "-").replace("i", "-").replace("o", "-").replace("u", "-")("A", "-").replace("E", "-").replace("I", "-").replace("O", "-").replace("U", "-");
 
   }
     $(".form-group").addClass("hide");
